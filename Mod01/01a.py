@@ -1,1 +1,3 @@
-print("Hello, whats up world?")
+nimi = input("Hei, mikä on nimesi? ")
+
+print("Hauska tavata,", nimi)
