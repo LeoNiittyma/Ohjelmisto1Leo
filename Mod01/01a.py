@@ -1,3 +1,3 @@
-nimi = input("Hei, mikä on nimesi? ")
+nimi = "Leo Niittymaa"
 
-print("Hauska tavata sinut,", nimi)
+print("Hei,",nimi)
