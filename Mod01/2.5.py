@@ -1,0 +1,15 @@
+leiviska_str = input("Anna leiviskät: ")
+naula_str = input("Anna naulat: ")
+luoti_str = input("Anna luodit: ")
+
+leiviska = float(leiviska_str)
+naula = float(naula_str)
+luoti = float(luoti_str)
+
+leiviskapaino = (leiviska * 13.3 * 20 * 32)
+naulapaino = (naula * 13.3 * 32)
+luotipaino = (luoti * 13.3)
+
+yhteispaino = (leiviskapaino + naulapaino + luotipaino)
+
+print(yhteispaino)
