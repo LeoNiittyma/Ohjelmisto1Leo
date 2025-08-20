@@ -12,4 +12,8 @@ luotipaino = (luoti * 13.3)
 
 yhteispaino = (leiviskapaino + naulapaino + luotipaino)
 
-print(yhteispaino)
+kg = yhteispaino // 1000
+g1 = yhteispaino % 1000
+g = g1 // 1
+
+print("Massa nykymittojen mukaan:",kg,"kg ja",g,"grammaa.")
