@@ -16,4 +16,4 @@ kg = yhteispaino // 1000
 g1 = yhteispaino % 1000
 g = g1 // 1
 
-print("Massa nykymittojen mukaan:",kg,"kg ja",g,"grammaa.")
+print("Massa nykymittojen mukaan:",kg,"kilogrammaa ja",g,"grammaa.")
