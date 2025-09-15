@@ -15,7 +15,5 @@ while nimi != "":
         print("Uusi nimi")
     nimilista.add(nimi)
 
-print(nimilista)
-
 for i in nimilista:
     print(i)
